@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="147">
+    <path fill="#FCD32A" fill-rule="evenodd" stroke="#111" stroke-width="3" d="M7.334 6.485h145.8v133.528H7.334V6.485z"/>
+    <text fill="#222" font-family="Montserrat" font-size="18" font-weight="bold" transform="matrix( 0.68301007267054, 0, 0, 0.68301007267055,24.0732198275132, 62.777657529201)">
+        <tspan>WHAT HAPP</tspan><tspan x="0" dy="1.5em">ENED’S</tspan><tspan x="0" dy="1.5em">BRAND SRORY</tspan><tspan x="0" dy="1.5em">PLAN</tspan>
+    </text>
+    <text fill="#222" font-family="Montserrat" font-size="20" font-weight="bold" transform="matrix( 0.68301007267054, 0, 0, 0.68301007267055,79.2153075793374, 34.281070508694)">
+        JIN
+    </text>
+    <text fill="#222" font-family="Montserrat" font-size="20" font-weight="bold" transform="matrix( 0.68301007267054, 0, 0, 0.68301007267055,24.2740959716175, 34.281070508694)">
+        NAME
+    </text>
+</svg>

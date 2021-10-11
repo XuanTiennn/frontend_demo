@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+/*---color---*/
+.bg-white{
+  background-color: #fff;
+}
+.bg-branstory{
+  background-color: #0565bb;
+}
+.bg-news{
+  background-color: #fccb05;
+}
+.bg-news-brand{
+  background-color: #ff5500
+
+  ;
+}
+.black{
+ color:#111111 ;
+}
+.black-btn{
+  color: #222222;
+}
+.black-title{
+  color: #222222;
+}
+.black-text-brand{
+  color: #110e03;
+}
+.white{
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.orange-light{
+  color: #f96400;
+}
+.orange-bold{
+  color: #ea4913;
+}
+.blue{
+  color: #0565bb;
+}
+.gray-light{
+  color: #eeeeee;
+}
+.green{
+  color: #00833f;
+}
+.purple-light{
+  color: #c6b8f5;
+}
+/*---font---*/
+.font-montserrat-regular{
+  font-family:'Montserrat', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 14px;
+}
+.font-montserrat-extraBold{
+  font-family:'Montserrat', sans-serif !important;
+  font-weight: 800 !important;
+}
+.font-montserrat-bold{
+  font-family:'Montserrat', sans-serif !important;
+  font-weight: 700 !important;
+}
+.font-montserrat-semibold{
+  font-family:'Montserrat', sans-serif !important;
+  font-weight: 600 !important;
+}
+.font-notoSans-light{
+  font-family: 'Noto Sans KR', sans-serif !important;
+  font-weight: 300 !important;
+}
+li{
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+img{
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*---*/
+.flex{
   display: flex;
-  flex-direction: column;
   align-items: center;
+}
+.flex-column{
+  flex-direction: column;
+}
+.flex-between{
+  justify-content: space-between;
+}
+.flex-center{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.flex-around{
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-img{
+  width: 100%;
+  height: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.introduct{
+  background-image: url('./img/introduction-bg.png') ;
+  margin-top: -4px;
+}
+.best-product{
+  background-image: url('./img/bes-bg.png') ;
 }

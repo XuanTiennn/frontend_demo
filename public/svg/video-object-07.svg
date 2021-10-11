@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164.5" height="164.5">
+    <path fill="#FCD32A" fill-rule="evenodd" stroke="#111" stroke-width="3" d="M6.5 11.999h146v146H6.5v-146z"/>
+    <path fill="#222" fill-rule="evenodd" d="M135.333.833h28.333v28.333h-28.333V.833z"/>
+    <path fill="#FFF" fill-rule="evenodd" d="M155.787 19.615l-1.101 1.101-4.887-4.881-5.462 5.456-1.134-1.132 5.462-5.457-4.887-4.88 1.102-1.102 4.887 4.882 4.66-4.655 1.134 1.132-4.66 4.655 4.886 4.881z"/>
+    <text fill="#111" font-family="Montserrat" font-size="95" font-style="italic" transform="matrix( 0.87545159552972, 0, 0, 0.87545159552972,35.1871248012042, 113.827628450245)">
+        W
+    </text>
+</svg>

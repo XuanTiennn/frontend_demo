@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="161" height="199">
+    <path fill="#FFF" fill-rule="evenodd" stroke="#111" stroke-width="3" d="M6.5 27.499h148v165H6.5v-165z"/>
+    <text x="27.5" y="125.5" fill="#222" font-family="Montserrat" font-size="20" font-weight="bold">
+        <tspan dy="-54">JIN’S</tspan><tspan x="27.5" dy="1.35em">WEEKLY</tspan><tspan x="27.5" dy="1.35em">PLAN</tspan>
+    </text>
+    <path fill="#FCD32A" fill-rule="evenodd" d="M26.5 173.499v-3h106.999v3H26.5zm0-13h106.999v3H26.5v-3zm0-10h106.999v3H26.5v-3zm0-10h106.999v3H26.5v-3z"/>
+    <path fill="#111" fill-rule="evenodd" stroke="#111" stroke-width="3" d="M106.499 6.499H130.5v44h-24.001v-44z"/>
+</svg>
