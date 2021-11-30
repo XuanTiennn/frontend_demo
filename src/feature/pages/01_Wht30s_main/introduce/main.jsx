@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Container, Grid } from "@material-ui/core";
 import clsx from "clsx";
 import { makeStyles } from "@material-ui/core";
-Introduct.propTypes = {};
+Introduct.propTypes = {}; 
 
 const useStyles = makeStyles((theme) => ({
   introduct_text: {
