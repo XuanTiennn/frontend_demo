@@ -87,7 +87,7 @@ function Footer(props) {
                   ))}
                 </ul>
               </Grid>
-            </Grid>
+            </Grid> 
           </Grid>
         </Grid>
         <Grid container>
