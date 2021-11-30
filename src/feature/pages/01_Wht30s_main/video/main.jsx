@@ -8,7 +8,6 @@ Video.propTypes = {};
 const useStyles = makeStyles((theme) => ({
   root: {
     position: "relative",
-    
   },
   img_obj: {
     width: "auto",
@@ -74,11 +73,11 @@ const useStyles = makeStyles((theme) => ({
     },
     justifyContent: "center",
   },
-  oth:{
-    [theme.breakpoints.up('md')]:{
-      height:'900px'
-    }
-  }
+  oth: {
+    [theme.breakpoints.up("md")]: {
+      height: "900px",
+    },
+  },
 }));
 function Video(props) {
   const classes = useStyles();

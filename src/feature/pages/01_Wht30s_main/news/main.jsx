@@ -1,8 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
+import { Box, Grid, makeStyles, Typography } from "@material-ui/core";
 import clsx from "clsx";
+import React from "react";
 import SectionTitle from "../components/sectionTitle";
-import { Box, Grid, Hidden, makeStyles, Typography } from "@material-ui/core";
 import BtnButton from "./../components/btn";
 News.propTypes = {};
 const useStyles = makeStyles((theme) => ({

@@ -38,7 +38,7 @@ function BestProduct(props) {
             }
           />
         </Grid>
-        <Grid container>
+        <Grid container> 
           {[1, 2, 3].map((item) => (
             <Grid item xs={12} sm={4} lg={4} className={classes.onMobile}>
               <BoxItem

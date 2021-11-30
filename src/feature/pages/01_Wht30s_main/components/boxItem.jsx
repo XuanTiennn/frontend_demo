@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
       height: "40px",
     },
   },
-  rank: {
+  rank: { 
     position: "absolute",
     top: "-47px",
     left: "-1px",

@@ -3,11 +3,15 @@ import { Container, Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import clsx from "clsx";
 import React from "react";
+import MenuMobile from "./menu-mobile";
 Header.propTypes = {};
 
 const useStyles = makeStyles((theme) => ({
   header: {
     backgroundColor: "black",
+    [theme.breakpoints.down("sm")]: {
+     padding:'12px'
+    },
   },
   listItem: {
     textTransform: "uppercase",
@@ -16,6 +20,12 @@ const useStyles = makeStyles((theme) => ({
   navigateDesktop: {
     [theme.breakpoints.down("sm")]: {
       display: "none",
+    },
+  },
+  logo: {
+    [theme.breakpoints.down("sm")]: {
+      width: "60%",
+      height: "25px", 
     },
   },
 }));
@@ -29,12 +39,15 @@ function Header(props) {
           <Grid item>
             <div className="header-logo">
               <a href="#" className="logo-link">
-                <img src="../img/logo.png" alt="logo-img" />
+                <img
+                  className={classes.logo}
+                  src="../img/logo.png"
+                  alt="logo-img"
+                />
               </a>
             </div>
           </Grid>
           <Grid item>
-           
             <div className={clsx(classes.navigateDesktop, "header-navigate")}>
               <Grid container>
                 <Grid item>
@@ -77,6 +90,7 @@ function Header(props) {
                 </Grid>
               </Grid>
             </div>
+            <MenuMobile />
           </Grid>
         </Grid>
       </Container>
