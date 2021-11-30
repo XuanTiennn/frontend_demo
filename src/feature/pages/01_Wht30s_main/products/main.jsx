@@ -6,7 +6,7 @@ import { makeStyles } from "@material-ui/styles";
 import BtnButton from "../components/btn";
 import clsx from "clsx";
 Products.propTypes = {};
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles((theme) => ({ 
   root: {
     padding: "40px 0",
   },
