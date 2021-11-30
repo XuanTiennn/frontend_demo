@@ -5,7 +5,7 @@ Banner.propTypes = {};
 function Banner(props) {
   return (
     <div className="banner">
-      <img className="banner-img" src="../img/main-banner.png" alt="asw" />
+      <img className="banner-img" src="../img/main-banner.png" alt="asw" /> 
     </div>
   );
 }
